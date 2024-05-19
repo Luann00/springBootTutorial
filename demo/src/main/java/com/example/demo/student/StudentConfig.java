@@ -33,6 +33,8 @@ public class StudentConfig {
 					LocalDate.of(2004, Month.JANUARY, 5)
 					
 					);
+			
+			
 			studentRepository.saveAll(
 					List.of(mariam,alex));
 
