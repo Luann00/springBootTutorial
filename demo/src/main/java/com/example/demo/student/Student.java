@@ -17,7 +17,7 @@ public class Student {
 	@Id
 	private long id;
 	private String name;
-	private String eMail;
+	private String email;
 	private LocalDate dob;
 	
 	
@@ -27,7 +27,7 @@ public class Student {
 	public Student(long id, String name, String eMail, LocalDate dob) {
 		this.id = id;
 		this.name = name;
-		this.eMail = eMail;
+		this.email = eMail;
 		this.dob = dob;
 	}
 	
@@ -35,7 +35,7 @@ public class Student {
 	
 	public Student(String name, String eMail, LocalDate dob) {
 		this.name = name;
-		this.eMail = eMail;
+		this.email = eMail;
 		this.dob = dob;
 	}
 
@@ -72,13 +72,13 @@ public class Student {
 
 
 	public String geteMail() {
-		return eMail;
+		return email;
 	}
 
 
 
 	public void seteMail(String eMail) {
-		this.eMail = eMail;
+		this.email = eMail;
 	}
 
 
@@ -109,7 +109,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", eMail=" + eMail + ", dob=" + dob + ", age=" + age + "]";
+		return "Student [id=" + id + ", name=" + name + ", eMail=" + email + ", dob=" + dob + ", age=" + age + "]";
 	}
 	
 	
